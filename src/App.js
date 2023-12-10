@@ -1,14 +1,10 @@
 import './App.css';
-import NavigationBar from './Landing Page/NavigationBar';
-import TopBox from './Landing Page/TopBox';
-import TopCarousel from './Landing Page/TopCarousel';
+import LandingPage from './Landing Page/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar/>
-      <TopBox/>
-      <TopCarousel/>
+      <LandingPage/>
     </div>
   );
 }
